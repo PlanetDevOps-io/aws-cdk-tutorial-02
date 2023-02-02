@@ -10,6 +10,6 @@ new PermissionsBoundaryPolicyStack(app, 'PermissionsBoundaryPolicyStack', {
     description: 'GTZ Permissions Boundary Policy Stack'
 })
 
-new MarsRoverStack(app, 'MarsRoverStackStack', {
+new MarsRoverStack(app, 'MarsRoverStack', {
     description: 'AWS CDK Workshop tutorial stack',
 });
